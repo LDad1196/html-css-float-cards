@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(229, 49, 112);
+    padding: 4% 0%;
+
+}
+
+.schedule {
+
+}
+
+.schedule
+h2 {
+    color: white;
+}
