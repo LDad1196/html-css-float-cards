@@ -1,3 +1,4 @@
+/* Body */
 * {
     margin: 0;
     padding: 0;
@@ -5,21 +6,46 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body {
-    text-align: center;
-}
-
 h1 {
     color: rgb(229, 49, 112);
     padding: 4% 0%;
-
+    text-align: center;
 }
 
-.schedule {
-
+main > p {
+text-align: center;
 }
 
-.schedule
-h2 {
+/* Schede */
+
+.scheda {
+    background-color: black;
     color: white;
+    width: 30%;
+    height: 11%;
+    float: left;
+    margin-right: 2%;
+    margin-top: 2%;
+    padding: 1%;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin-right: 1%;
+    float: left;
+}
+
+div > p {
+    font-size: 20px;
+}
+
+.email {
+    color: aqua;
+}
+
+section::after {
+    content: " ";
+    display: block;
+    clear: both;
 }
